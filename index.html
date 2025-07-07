@@ -9,6 +9,39 @@
   <source src="amarvid.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> -->
+<!-- YouTube Video at Top of Page -->
+<div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/h4JicGteBvQ" 
+    title="Herbal Product Video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Add this in your <style> section or CSS file -->
+<style>
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    margin: 20px auto;
+    box-shadow: 0 4px 20px rgba(0, 128, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+</style>
+<!-- 
+
 <style>
   .video-container {
     text-align: center;
@@ -29,7 +62,8 @@
     hair shampoo and oil .
   </video>
   <p>Discover how Amar Herbal creates its natural products.</p>
-</div>
+</div> -->
+
 
   <style>
     body {
